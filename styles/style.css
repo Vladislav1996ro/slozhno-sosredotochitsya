@@ -412,6 +412,11 @@
     gap: 20px;
   }
 
+  .section__container-row {
+    grid-template-columns: 1fr; /* Перестроение в колонку */
+    margin-block-start: 0; /* Сброс отступа */
+  }
+
   .section__img {
     margin-block-start: 50px;
     padding: 0;
